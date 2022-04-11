@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HASS Assignment 2</title>
+    <style>
+        body {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2em auto;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 30px;
+        }
+
+        topleft {
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        topright {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        bottomleft {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        bottomright {
+            grid-column: 2;
+            grid-row: 2;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+        }
+
+        .introduction {
+            text-align: center;
+        }
+
+        .red {
+            color: #773333;
+        }
+
+        .pink {
+            color: #F781BC;
+        }
+
+        .teal {
+            color: #9BD8C8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="introduction">
+        <h1>
+            Hee Ming Shan
+        </h1>
+        <h2>
+            Assignment 2
+        </h2>
+        <p>The mentioned charts can be found on <a
+                href="reddit.com/r/dataisugly">reddit.com/r/dataisugly</a></p>
+    </div>
+
+    <div class="container">
+        <topleft>
+
+            <h3> Chart Junk #1 </h3>
+            <p>
+                This particular diagram is posted on Instagram by LoverOfGeography. The data source for the diagram can
+                be obtained from <a href="https://en.wikipedia.org/wiki/Average_human_height_by_country">Wikipedia</a>
+            </p>
+
+            <h3><span class="red">What</span> is the data like?</h3>
+            <ul>
+                <li>
+                    Countries in Europe
+                </li>
+                <li>
+                    Average male height in Europe 2022 (in cm)
+                </li>
+            </ul>
+
+            <h3><span class="red">Why</span> did they do the visualisation?</h3>
+            <p>It is likely that the designer want to showcase the data in a geo-visualisation for <b>easier
+                    consumption</b>. Arguably, you can say geo-visualisation can attract more attention on Instagram as
+                well</p>
+
+            <h3><span class="red">How</span> did they designed the visualisation?</h3>
+
+            <ul>
+                <li>
+                    Idiom: Geo-Visualisation
+                </li>
+                <li>
+                    Data Scale: Ratio
+                </li>
+            </ul>
+
+            <h3>Criticism on idiom (technique involved)</h3>
+            <ul>
+                <li>
+                    <b>Poor Use of Identity Channel (Color).</b> In the diagram, the designer used <span
+                        color="pink">pink</span> and <b>black</b> to identity the countries with the shortest gang and
+                    the tallest gang respectively. However, there seems to be no meaning for the default color <span
+                        color="teal">teal</span>? Hence, this can be considered a poor use of the identity color as this
+                    can be illustrated through other means
+                    <br><br>
+                </li>
+                <li>
+                    <b>Poor Use of Magnitute Channel (Font Size)</b> At first glance, you might think that the
+                    font-size is associated with the average male height (e.g. bigger = taller). However, this
+                    is a poor use of font-size as the various font-size does not encode any information and is
+                    used to solely fit the information onto the map
+                    <br><br>
+                </li>
+                <li>
+                    <b>Poor Use of Magnitute Channel (Tilt)</b> This is similar to the point made in the above section.
+                    There is no meaning to the tilt degree of the font.
+                    <br><br>
+                </li>
+            </ul>
+
+        </topleft>
+        <topright>
+            <img src="https://i.redd.it/bbkr8rywudq81.jpg">
+            <p1>
+                Source: <a
+                    href="https://www.reddit.com/r/dataisugly/comments/trjhbk/mildly_infuriating/">
+                    https://www.reddit.com/r/dataisugly/comments/trjhbk/mildly_infuriating/
+                </a>
+            </p1>
+        </topright>
+        <bottomleft>
+            <img src="https://i.redd.it/v5m03acwx1r81.png">
+            <p1>
+                Source: <a
+                    href="https://www.reddit.com/r/MMORPG/comments/tubh4o/results_from_the_mmo_pricing_fairness_poll/">
+                    https://www.reddit.com/r/MMORPG/comments/tubh4o/results_from_the_mmo_pricing_fairness_poll/
+                </a>
+            </p1>
+
+
+        </bottomleft>
+        <bottomright>
+            <h3> Chart Junk #2 </h3>
+            <p>
+                This chart is shared onto <a href="reddit.com/r/dataisugly">Reddit</a> by Reddit User
+                cgraghallach1995.
+            </p>
+
+            <h3><span class="red">What</span> is the data like?</h3>
+            <ul>
+                <li>
+                    Name of various MMOs
+                </li>
+                <li>
+                    Pricing Fairness Score for each MMOs
+                </li>
+            </ul>
+
+            <h3><span class="red">Why</span> did they do the visualisation?</h3>
+            <p>The purpose is to unveil the price fairness of each MMORPG. To a certain extent, it is trying to rank
+                and compare the price fairness of each MMORPG </p>
+
+            <h3><span class="red">How</span> did they designed the visualisation?</h3>
+
+            <ul>
+                <li>
+                    Idiom: Bar Chart
+                </li>
+                <li>
+                    Data Scale: Ratio
+                </li>
+            </ul>
+
+            <h3>Criticism on idiom (technique involved)</h3>
+            <ul>
+                <li>
+                    <b>Poor Use of Identity Channel (Color).</b> The designer probably wanted to separate the price
+                    fairness into bands and showcase them in different colors. However, it is not entirely necessary to
+                    use the color channel to encapsulate this information. Also, there is no legend for the chart.
+                    <br><br>
+                </li>
+                <li>
+                    <b>Bar Chart could be better utilised.</b> If the intention is to rank and compare the price
+                    fairness across various MMOs, what the designer could do minimally is to rank the MMOs in terms of
+                    their price fairness score. Since the X axis does not contain any order information, it is
+                    entirely possible to do so.
+                    <br><br>
+                </li>
+            </ul>
+        </bottomright>
+    </div>
+
+</body>
+
+</html>
